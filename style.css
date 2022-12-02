@@ -106,6 +106,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
 }
+
 .insidebackshelf {
     background-image: url("shelfbackgroundlarge2.png");
     height: 1520px;
@@ -113,6 +114,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
 }
+
 .itemsmiddleright {
     float: left;
     width: 20%;
@@ -130,6 +132,7 @@ body {
     transition: 1.5s;
     background-color: aqua;
 }
+
 .itemsbottomright {
     float: left;
     width: 20%;
@@ -147,34 +150,51 @@ body {
     transition: 1.5s;
     background-color: aqua;
 }
+
 .descriptions_R {
-display: none;
-padding: 1em;
-font-size: x-large;
+    display: none;
+    padding: 1em;
+    font-size: x-large;
 }
+
 #RT1, #RT2, #RT3, #RM1, #RM2, #RM3, #RM4, #RM5, #RM6 {
     height: fit-content;
     width: fit-content;
     background-color: aliceblue;
 }
+
 .descriptions_L {
     display: none;
     padding: 1em;
     font-size: x-large;
-  
 
 }
+
+.descriptions_B {
+    display: none;
+    padding: 1em;
+    font-size: x-large;
+}
+
 #LT1, #LT2, #LT3, #MT1, #MT2, #MT3, #MT4, #MT5, #MT6 {
     height: fit-content;
     width: fit-content;
     background-color: aliceblue;
 }
+
+#BT1, #BT2, #BT3, #BM1 {
+    height: fit-content;
+    width: fit-content;
+    background-color: aliceblue;
+}
+
 .itemsbackshelf {
     float: left;
     width: 14%;
     padding-left: 8%;
     margin-top: 5%;
 }
+
 .itemsbackshelf img {
     border: 8px solid transparent;
 }
@@ -185,18 +205,21 @@ font-size: x-large;
     transition: 1.5s;
     background-color: aqua;
 }
+
 .itemsbackshelf2 {
     float: left;
     width: 14%;
     padding-left: 8%;
     margin-top: 8%;
 }
+
 .itemsbackshelf3 {
     float: left;
     width: 14%;
     padding-left: 8%;
     margin-top: 9%;
 }
+
 .itemsbackshelf2 img {
     border: 8px solid transparent;
 }
@@ -207,6 +230,7 @@ font-size: x-large;
     transition: 1.5s;
     background-color: aqua;
 }
+
 .itemsbackshelf3 img {
     border: 8px solid transparent;
 }
@@ -217,6 +241,7 @@ font-size: x-large;
     transition: 1.5s;
     background-color: aqua;
 }
+
 .flex-container {
     display: flex;
     position: -webkit-sticky;
@@ -224,4 +249,18 @@ font-size: x-large;
     top: 0;
     z-index: 1;
     background-color: aliceblue;
+}
+
+.button {
+    background-color: aliceblue;
+    width: fit-content;
+    margin-left: 3%;
+    font-size: x-large;
+    padding: 1em;
+    text-decoration: none;
+}
+#welcome {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }

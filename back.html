@@ -1,33 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Interactive Walk-in Fridge</title>
+<title>Interactive Walk-in Fridge: Back Shelf</title>
 <link rel="stylesheet" href="style.css">
+<script src="jquery.js"></script>
+<script src="descriptionsB.js"></script>
+
 <body>
 
-<h1>back</h1>
-<div class="insidebackshelf">
-    <div class="bshelf" id="btop">
-        <div class="itemsbackshelf"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf"><img src="testsquare.png"></div>
-        <div class="clear"></div>
+    <h1>Back Shelf</h1>
+    <div class="flex-container">
+        <div class="descriptions_B" id="BT1">
+            <p>
+                Tortillas: <br>
+                Used for Tacos. <br>
+                1/6 pan on Grill Sation.
+
+            </p>
+        </div>
+        <div class="descriptions_B" id="BT2">
+            <p>
+                Gruyere Cheese: Sliced <br>
+                Used for Grilled Cheese, Fried Chicken Sandwhich, French Dip and French Onion Soup. <br>
+                1/6 pan on Grill and Fryer Sation.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BT3">
+            <p>
+                Gouda Cheese: Shredded <br>
+                Used in Pesto Gouda Sauce. <br>
+                1/9 pan on Sautee Station.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BT4">
+            <p>
+                Cheese Mix: Shredded<br>
+                5 quarts Swiss, 5 quarts Cheddar, 5 quarts Gouda <br>
+                1/6 Pan on Sautee Station.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BM1">
+            <p>
+                Dungenous Crab: Cooked <br>
+                Used in Crab Mac & Cheese and as an optional Salad Protein. <br>
+                1/6 Pan on Sautee Station.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BM2">
+            <p>
+                Prawns: <br>
+                Used in Garlic Praws, Blackened Prawn Tacos, and optional Salad Protein. <br>
+                1/3 pan on Grill Station.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BM3">
+            <p>
+                Clams: <br>
+                Used in Steamed Clams. <br>
+                1/3 pan on Sautee Sation.
+
+            </p>
+        </div>
+        <div class="descriptions_B" id="BM4">
+            <p>
+                Roast Beef: 6 oz Portions <br>
+                Used in French Dip. <br>
+                1/6 pan on Grill Sation.
+
+            </p>
+        </div>
+        <div class="descriptions_B" id="BL1">
+            <p>
+                Salmon: 6 oz Portions <br>
+                Used in Salmon Entree, Salmon Burger, and optional Salad Protein. <br>
+                1/3 pan on Grill Station.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BL2">
+            <p>
+                Halibut: 5 oz Portions <br>
+                Used in Halibut Entree, Halibut Fish and Chips, and Halibut Tacos. <br>
+                1/3 Pan on Grill Sation, 1/6 Pan of 2.5oz portions and 1/6 pan of 2oz portions on Fryer Station.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BL3">
+            <p>
+                Burgers: 6 oz Portions <br>
+                Used for Black Cat Burger. <br>
+                2 x 1/6 pans on Grill Sation.
+            </p>
+        </div>
+        <div class="descriptions_B" id="BL4">
+            <p>
+                Ribeye Steaks: 10 oz Portions. <br>
+                Used for Steak Entree. <br>
+                1/3 pan on Grill Station.
+            </p>
+        </div>
     </div>
-    <div class="bshelf" id="btop">
-        <div class="itemsbackshelf2"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf2"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf2"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf2"><img src="testsquare.png"></div>
-        <div class="clear"></div>
+    <div class="insidebackshelf">
+        <div class="bshelf" id="btop">
+            <span id="BT1C">
+                <div class="itemsbackshelf"><img src="BT1.png"></div>
+            </span>
+            <span id="BT2C">
+                <div class="itemsbackshelf"><img src="BT2.png"></div>
+            </span>
+            <span id="BT3C">
+                <div class="itemsbackshelf"><img src="BT3.png"></div>
+            </span>
+            <span id="BT4C">
+                <div class="itemsbackshelf"><img src="BT4.png"></div>
+            </span>
+            <div class="clear"></div>
+        </div>
+        <div class="bshelf" id="btop">
+            <span id="BM1C">
+                <div class="itemsbackshelf2"><img src="BM1.png"></div>
+            </span>
+            <span id="BM2C">
+                <div class="itemsbackshelf2"><img src="BM2.png"></div>
+            </span>
+            <span id="BM3C">
+                <div class="itemsbackshelf2"><img src="BM3.png"></div>
+            </span>
+            <span id="BM4C">
+                <div class="itemsbackshelf2"><img src="BM4.png"></div>
+            </span>
+            <div class="clear"></div>
+        </div>
+        <div class="bshelf" id="btop">
+            <span id="BL1C">
+                <div class="itemsbackshelf3"><img src="BL1.png"></div>
+            </span>
+            <span id="BL2C">
+                <div class="itemsbackshelf3"><img src="BL3.png"></div>
+            </span>
+            <span id="BL3C">
+                <div class="itemsbackshelf3"><img src="BL2.png"></div>
+            </span>
+            <span id="BL4C">
+                <div class="itemsbackshelf3"><img src="BL4.png"></div>
+            </span>
+            <div class="clear"></div>
+        </div>
     </div>
-    <div class="bshelf" id="btop">
-        <div class="itemsbackshelf3"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf3"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf3"><img src="testsquare.png"></div>
-        <div class="itemsbackshelf3"><img src="testsquare.png"></div>
-        <div class="clear"></div>
-    </div>
-</div>
 </body>
+<span class="button"><a href="fridge.html">Back</a></span>
+
 </html>
